@@ -1,0 +1,192 @@
+:root {
+    --color-green: #264;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    padding-top: 30vh;
+    background-color: rgb(52, 40, 56);
+}
+
+
+#header {
+    position: fixed;
+    height: 20vh;
+    width: 100%;
+    margin-top: -30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/backgroundheader.jpg);
+}
+
+#header img {
+    height: 100%;
+}
+
+#header h1 {
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: Agency FB;
+}
+
+#nav {
+    width: 100%;
+    position: fixed;
+    margin-top: -10vh;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: var(--color-green);
+    height: 10vh;
+}
+#submenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: var(--color-green);
+    height: 5vh;
+}
+#submenu .menu__item{
+    margin: 0 2vw;
+}
+
+#submenu .menu__item a{
+    text-decoration: none;
+    color: #ff0;
+    font-size: 2rem;
+}
+#menu .menu__item{
+    margin: 0 2vw;
+}
+
+#menu .menu__item a{
+    text-decoration: none;
+    color: #ff0;
+    font-size: 2rem;
+}
+
+#page {
+    display: flex;
+    width: 100%;
+}
+
+#page section {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgb(52, 40, 56);
+    height: 120vh;
+}
+#introduccio{
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+table, td {
+    border: 1px solid #48e;
+}
+
+table {
+    margin: auto;
+    margin-top: 2rem;
+    width: 50%;
+}
+
+td {
+    text-align: center;
+}
+.seccio{
+    width: 950px;
+    height: 330px;
+    border-style: solid;
+    border-color: aliceblue;
+    margin-left: 1em;
+
+}
+.imgprod{
+        width: 300px;
+        height: 300px;
+        float: left;
+        margin: 1em;
+}
+aside {
+    background: url(img/trudly.png);
+    background-size: contain;
+    width: 40vw;
+}
+.titol{
+    font-size: 24px;
+    margin-left: 1em;
+}
+.titolprod{
+    float: right;
+    margin-right: 60px;
+    margin-top: 1em;
+}
+.dte{
+    font-size: 16px;
+    color: #F31B0382;
+}
+.descripcio{
+    width: 900px;
+    padding: 5em;
+    margin-right: 1em;
+}
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    border: 5px solid var(--color-green);
+    margin-bottom: 2rem;
+}
+.oferta{
+    color:#C3C0C04F;
+}
+
+input, textarea {
+    margin:2vh 5vw;
+    background: var(--color-green);
+    resize: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff;
+}
+h1{
+    font-size: larger;
+}
+h3{
+    font-size: medium;
+}
+p{
+    font-size: 14px;
+}
+.compra{
+    padding: 1em;
+    
+}
+.precio{
+    float: right;
+    font-family: Fantasy;
+    font-size: 45px;
+}
+footer {
+    background: #333;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: .5rem;
+}
